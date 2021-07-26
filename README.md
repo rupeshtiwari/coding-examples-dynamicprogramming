@@ -2,3 +2,4 @@
 
 ## Dynamic Programming
 
+Read the article about this [repo here](http://www.rupeshtiwari.com/coding-examples-dynamicprogramming/).

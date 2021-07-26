@@ -33,6 +33,7 @@ Given a set of numbers check if there is sub-set with the sum of elements equal 
 
 ## In DP should I use recursive or iterative approach?
 
+Because iterative approach allow us to apply harder techniques and gives less time complexity ever. I would recommend using iterative approach while solving problems using DP. 
 
 
 

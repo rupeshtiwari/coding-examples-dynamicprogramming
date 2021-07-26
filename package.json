@@ -1,0 +1,27 @@
+{
+  "name": "coding-examples-dynamicprogramming",
+  "version": "1.0.0",
+  "description": "[![Node.js CI](https://github.com/rupeshtiwari/coding-examples-final-450-by-love-babbar/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/rupeshtiwari/coding-examples-final-450-by-love-babbar/actions/workflows/main.yaml)",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupeshtiwari/coding-examples-dynamicprogramming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupeshtiwari/coding-examples-dynamicprogramming/issues"
+  },
+  "homepage": "https://github.com/rupeshtiwari/coding-examples-dynamicprogramming#readme",
+  "devDependencies": {
+    "jasmine": "^3.8.0",
+    "karma": "^6.3.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.7.0"
+  }
+}

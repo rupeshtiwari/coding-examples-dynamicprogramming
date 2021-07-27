@@ -2,6 +2,8 @@
 
 Dynamic programming (DP) is about finding some work that is repeating multiple time un-necessary. So you save the result of that sub-problem and reuse multiple times to avoid extra computation.
 
+![](https://i.imgur.com/9qd3cgU.png)
+
 ## Types of Dynamic Programming
 
 Normally, 3 types of problems can be solved by DP.
@@ -50,7 +52,7 @@ Examples:
 
 ![](https://i.imgur.com/NehtYBP.png)
 
-## How to apply DP?
+## How to approach Dynamic Programming?
 
 In DP you need to define the **state** and the **state transition** of the result at any given position/time.
 
@@ -60,7 +62,7 @@ There are 3 varieties of states in DP described as below:
 - If question is asking can person arrive or **is it possible** (YES/NO) to arrive to the given position. Then in DP you store Boolean value to indicate yes or no at given position. `DP[i] = true|false`
 - If question is asking to maximize the possibility to the given position. Then in DP you store maximum value at any position. `DP[i] = maximumValue at position i.`
 
-**Example: You are climbing a staircase. It takes N steps to reach to the top. How many distinct ways a person can arrive to the top? Each time you can either climb 1 or 2 steps.**
+### Example of DP: You are climbing a staircase. It takes N steps to reach to the top. How many distinct ways a person can arrive to the top? Each time you can either climb 1 or 2 steps
 
 ![](https://i.imgur.com/lPId0Tg.png)
 
@@ -72,3 +74,39 @@ In this example the state is number and the transition is `dp[i]=dp[i-1]+dp[i-2]
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1700383344966810"
      crossorigin="anonymous"></script>
+
+
+### Example of DP: You are climbing a staircase. It takes N steps to reach to the top. Each time you can either climb 1 or 2 steps. How many distinct ways a person can arrive to the the top at most `k` jumps? 
+
+**What is the state?**
+
+State is described as position and the number of jumps required to arrive that position. 
+
+`state = dp[i][k];`
+
+
+**What is the state transition?**
+
+![](https://i.imgur.com/ajBg7h2.png)
+
+
+Answer will be the sum over DP of n and the j the number of jumps over j from `0` up to `k`. Because you are allowed to make at most k jumps.
+
+
+**What is Space Complexity?**
+
+`O(N*K)`
+
+**What is time complexity?**
+
+`O(1)` constant time. 
+
+
+![](https://i.imgur.com/MiKxMfk.png)
+
+
+## Tips to remember while approaching DP
+
+At any position think 🤔 what is important so far. 
+- Is the number of jumps
+- May be last jump is important because you are forbidden to make 2 consecutive jumps. 

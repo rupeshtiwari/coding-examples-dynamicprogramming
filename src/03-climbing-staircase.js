@@ -1,20 +1,18 @@
 class ClimbingStairCase {
-  execute(num, max = 2) {
+  execute(num) {
+    const maximumJumps = 2;
     if (num === 0 || num === 1) return 1;
 
     let previous0 = 1;
     let previous1 = 1;
     let result = 1;
-    for (let idx = 2; idx <= num; idx++) {
+    for (let idx = maximumJumps; idx <= num; idx++) {
       result = previous1 + previous0;
       previous0 = previous1;
       previous1 = result;
     }
     return result;
-    }
-    
-    
-
+  }
 }
 
 describe('ClimbingStairCase', () => {

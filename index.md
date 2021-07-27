@@ -50,8 +50,13 @@ Examples:
 
 ![](https://i.imgur.com/NehtYBP.png)
 
+## How to apply DP?
 
+In DP you need to define the state of the result at given time. There are 3 varieties of states in DP described as below:
 
+- If question is asking the **number of way**s person arrive to the given position. Then in DP you store number to indicate the ways/choices at given positions. `DP[i] = number`
+- If question is asking can person arrive or **is it possible** (YES/NO) to arrive to the given position. Then in DP you store Boolean value to indicate yes or no at given position. `DP[i] = true|false`
+- If question is asking to maximize the possibility to the given position. Then in DP you store maximum value at any position. `DP[i] = maximumValue at position i.`
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1700383344966810"
      crossorigin="anonymous"></script>

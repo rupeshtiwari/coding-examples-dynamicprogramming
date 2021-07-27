@@ -1,6 +1,6 @@
 # Dynamic Programming Learning
 
-Dynamic programming (DP) is about finding some work that is repeating multiple time un-necessary. So you save the result of that sub-problem and re-use multiple times to avoid extra computation.
+Dynamic programming (DP) is about finding some work that is repeating multiple time un-necessary. So you save the result of that sub-problem and reuse multiple times to avoid extra computation.
 
 ## Types of Dynamic Programming
 

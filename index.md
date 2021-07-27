@@ -64,11 +64,11 @@ There are 3 varieties of states in DP described as below:
 
 ![](https://i.imgur.com/lPId0Tg.png)
 
-In this example the state is number and the transition is `dp[i]=dp[i-1]+dp[i-2]`
+In this example the state is number and the transition is `dp[i]=dp[i-1]+dp[i-2]`. This is same as Fibonacci series question.
+
+![](https://i.imgur.com/KM9KJi2.png)
 
 ![](https://i.imgur.com/qTJzOpf.png)
-
-
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1700383344966810"
      crossorigin="anonymous"></script>

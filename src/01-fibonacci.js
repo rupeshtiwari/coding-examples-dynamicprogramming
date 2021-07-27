@@ -47,7 +47,9 @@ class Fibonacci {
     }
 
     return result;
-  }
+    }
+    
+   
 }
 
 describe('Fibonacci', () => {

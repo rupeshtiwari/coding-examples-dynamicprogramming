@@ -2,7 +2,6 @@
 
 Dynamic programming (DP) is about finding some work that is repeating multiple time un-necessary. So you save the result of that sub-problem and re-use multiple times to avoid extra computation.
 
-
 ## Types of Dynamic Programming
 
 Normally, 3 types of problems can be solved by DP.
@@ -36,6 +35,23 @@ Given a set of numbers check if there is sub-set with the sum of elements equal 
 ## In DP should I use recursive or iterative approach?
 
 Because iterative approach allow us to apply harder techniques and gives less time complexity ever. I would recommend using iterative approach while solving problems using DP.
+
+## When I need Dynamic Programming?
+
+Whenever you find repetitive work apply DP.
+
+Example:
+
+- **Calculate Fibonacci**: We end up computing duplicate numbers. So we should think of DP.
+
+![](https://i.imgur.com/T24uh0t.png)
+
+- **Calculate Factorial**: We do not repeat any calculation. Therefore, DP is not applied here.
+
+![](https://i.imgur.com/NehtYBP.png)
+
+
+
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1700383344966810"
      crossorigin="anonymous"></script>

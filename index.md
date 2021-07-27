@@ -2,11 +2,12 @@
 
 Dynamic programming (DP) is about finding some work that is repeating multiple time un-necessary. So you save the result of that sub-problem and re-use multiple times to avoid extra computation.
 
-![](https://i.imgur.com/kdjcdlz.png)
 
 ## Types of Dynamic Programming
 
 Normally, 3 types of problems can be solved by DP.
+
+![](https://i.imgur.com/NAdXeuD.png)
 
 ### 1- Count something, often the number of ways
 

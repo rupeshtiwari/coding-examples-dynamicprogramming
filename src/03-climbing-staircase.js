@@ -11,7 +11,10 @@ class ClimbingStairCase {
       previous1 = result;
     }
     return result;
-  }
+    }
+    
+    
+
 }
 
 describe('ClimbingStairCase', () => {

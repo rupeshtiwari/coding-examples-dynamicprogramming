@@ -52,11 +52,23 @@ Examples:
 
 ## How to apply DP?
 
-In DP you need to define the state of the result at given time. There are 3 varieties of states in DP described as below:
+In DP you need to define the **state** and the **state transition** of the result at any given position/time.
+
+There are 3 varieties of states in DP described as below:
 
 - If question is asking the **number of way**s person arrive to the given position. Then in DP you store number to indicate the ways/choices at given positions. `DP[i] = number`
 - If question is asking can person arrive or **is it possible** (YES/NO) to arrive to the given position. Then in DP you store Boolean value to indicate yes or no at given position. `DP[i] = true|false`
 - If question is asking to maximize the possibility to the given position. Then in DP you store maximum value at any position. `DP[i] = maximumValue at position i.`
+
+**Example: You are climbing a staircase. It takes N steps to reach to the top. How many distinct ways a person can arrive to the top? Each time you can either climb 1 or 2 steps.**
+
+![](https://i.imgur.com/lPId0Tg.png)
+
+In this example the state is number and the transition is `dp[i]=dp[i-1]+dp[i-2]`
+
+![](https://i.imgur.com/qTJzOpf.png)
+
+
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1700383344966810"
      crossorigin="anonymous"></script>

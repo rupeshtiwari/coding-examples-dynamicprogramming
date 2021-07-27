@@ -38,11 +38,11 @@ Because iterative approach allow us to apply harder techniques and gives less ti
 
 ## When I need Dynamic Programming?
 
-Whenever you find repetitive work apply DP.
+Whenever you find repetitive computation in your sub-problems then apply DP.
 
-Example:
+Examples:
 
-- **Calculate Fibonacci**: We end up computing duplicate numbers. So we should think of DP.
+- **Calculate Fibonacci**: We end up computing duplicate numbers. So we should apply DP and optimize our solution.
 
 ![](https://i.imgur.com/T24uh0t.png)
 

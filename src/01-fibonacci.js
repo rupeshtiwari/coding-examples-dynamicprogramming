@@ -26,10 +26,11 @@ class FibonacciRecursive {
 
 /**
  * RECOMMENDED IN COMPETETIVE PROGRAMMING
+ * Constant Time solution
  */
 class Fibonacci {
   /**
-   * O(n) time | O(n) space
+   * O(n) time | O(1) space
    */
   execute(num) {
     if (num === 0 || num === 1) return 1;
@@ -38,12 +39,9 @@ class Fibonacci {
     let previous1 = 1;
 
     let result = 0;
-    let idx = 2;
 
-    while (idx <= num) {
+    for (let idx = 2; idx <= num; idx++) {
       result = previous0 + previous1;
-      idx++;
-
       previous0 = previous1;
       previous1 = result;
     }

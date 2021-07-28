@@ -62,6 +62,14 @@ There are 3 varieties of states in DP described as below:
 - If question is asking can person arrive or **is it possible** (YES/NO) to arrive to the given position. Then in DP you store Boolean value to indicate yes or no at given position. `DP[i] = true|false`
 - If question is asking to maximize the possibility to the given position. Then in DP you store maximum value at any position. `DP[i] = maximumValue at position i.`
 
+## Tips to remember while approaching DP
+
+At any position think 🤔 what is important so far. 
+- Is the number of jumps
+- May be last jump is important because you are forbidden to make 2 consecutive jumps. 
+
+## Dynamic Programming Problems
+
 ### Example of DP: You are climbing a staircase. It takes N steps to reach to the top. How many distinct ways a person can arrive to the top? Each time you can either climb 1 or 2 steps
 
 ![](https://i.imgur.com/lPId0Tg.png)
@@ -76,7 +84,7 @@ In this example the state is number and the transition is `dp[i]=dp[i-1]+dp[i-2]
      crossorigin="anonymous"></script>
 
 
-### Example of DP: You are climbing a staircase. It takes N steps to reach to the top. Each time you can either climb 1 or 2 steps. How many distinct ways a person can arrive to the the top at most `k` jumps? 
+### Problem of DP: You are climbing a staircase. It takes N steps to reach to the top. Each time you can either climb 1 or 2 steps. How many distinct ways a person can arrive to the the top at most `k` jumps? 
 
 **What is the state?**
 
@@ -105,8 +113,4 @@ Answer will be the sum over DP of n and the j the number of jumps over j from `0
 ![](https://i.imgur.com/MiKxMfk.png)
 
 
-## Tips to remember while approaching DP
-
-At any position think 🤔 what is important so far. 
-- Is the number of jumps
-- May be last jump is important because you are forbidden to make 2 consecutive jumps. 
+### Given a grid, find a path from the top-left to the bottom-right corner that minimizes the sum of numbers along the path. You can only move right or down. ![](https://i.imgur.com/Ku4xVmY.png)

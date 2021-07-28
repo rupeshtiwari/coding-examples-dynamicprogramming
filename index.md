@@ -113,4 +113,8 @@ Answer will be the sum over DP of n and the j the number of jumps over j from `0
 ![](https://i.imgur.com/MiKxMfk.png)
 
 
-### Given a grid, find a path from the top-left to the bottom-right corner that minimizes the sum of numbers along the path. You can only move right or down. ![](https://i.imgur.com/Ku4xVmY.png)
+### Given a grid, find a path from the top-left to the bottom-right corner that minimizes the sum of numbers along the path. You can only move right or down. 
+
+![](https://i.imgur.com/Ku4xVmY.png)
+
+In this question Greedy approach will not work. So We have to go by DP. 

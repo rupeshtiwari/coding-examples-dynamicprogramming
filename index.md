@@ -64,9 +64,10 @@ There are 3 varieties of states in DP described as below:
 
 ## Tips to remember while approaching DP
 
-At any position think 🤔 what is important so far. 
+At any position think 🤔 what is important so far.
+
 - Is the number of jumps
-- May be last jump is important because you are forbidden to make 2 consecutive jumps. 
+- May be last jump is important because you are forbidden to make 2 consecutive jumps.
 
 ## Dynamic Programming Problems
 
@@ -83,23 +84,19 @@ In this example the state is number and the transition is `dp[i]=dp[i-1]+dp[i-2]
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1700383344966810"
      crossorigin="anonymous"></script>
 
-
-### Problem of DP: You are climbing a staircase. It takes N steps to reach to the top. Each time you can either climb 1 or 2 steps. How many distinct ways a person can arrive to the the top at most `k` jumps? 
+### Problem of DP: You are climbing a staircase. It takes N steps to reach to the top. Each time you can either climb 1 or 2 steps. How many distinct ways a person can arrive to the the top at most `k` jumps?
 
 **What is the state?**
 
-State is described as position and the number of jumps required to arrive that position. 
+State is described as position and the number of jumps required to arrive that position.
 
 `state = dp[i][k];`
-
 
 **What is the state transition?**
 
 ![](https://i.imgur.com/ajBg7h2.png)
 
-
 Answer will be the sum over DP of n and the j the number of jumps over j from `0` up to `k`. Because you are allowed to make at most k jumps.
-
 
 **What is Space Complexity?**
 
@@ -107,14 +104,23 @@ Answer will be the sum over DP of n and the j the number of jumps over j from `0
 
 **What is time complexity?**
 
-`O(1)` constant time. 
-
+`O(1)` constant time.
 
 ![](https://i.imgur.com/MiKxMfk.png)
 
-
-### Given a grid, find a path from the top-left to the bottom-right corner that minimizes the sum of numbers along the path. You can only move right or down. 
+### Given a grid, find a path from the top-left to the bottom-right corner that minimizes the sum of numbers along the path. You can only move right or down.
 
 ![](https://i.imgur.com/Ku4xVmY.png)
 
-In this question Greedy approach will not work. So We have to go by DP. 
+In this question Greedy approach will not work. So We have to go by DP.
+
+### Given the target value N and an array of allowed numbers, count ways to write N as the sum of those numbers.
+
+|  Algorithm | Simulation  |
+|---|---|
+| ![](https://i.imgur.com/PCR204n.png)  | ![](https://i.imgur.com/e6ynzhx.png)  |
+
+
+
+
+
